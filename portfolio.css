@@ -1,0 +1,141 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+  }
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+}
+.container{
+    margin: 0px 180px;
+    padding: 0px 60px;
+    color: white;
+    background: rgb(22, 22, 228);
+}
+.container nav ul li a{
+    color: white;
+}
+#contact p a{
+    color: white;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.profile img{
+    margin-top: 20px;
+}
+.profile p{
+    margin-top: 10px;
+   margin-bottom: 20px;
+}
+    
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+
+.hero{
+    display: flex;
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero-right{
+    flex: 1;
+    display: flex;
+ 
+}
+.education-list li{
+display: flex;
+justify-content: space-between;
+
+}
+.education-list div{
+    display: flex;
+    justify-content: space-between;
+}
+.project-heading{
+    display: flex;
+    justify-content: space-between;
+}
+#personal-projects ul{
+    list-style-type: none;
+}
+#personal-projects ul li span{
+    font-weight: 600;
+}
+.skill-list{
+    display: flex;
+}
+.skill-list ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.line{
+  margin-top: -15px;
+}
+#role{
+    text-decoration: underline;
+}
+@media (max-width: 1024px){
+    .container{
+        padding: 0px 30px;
+        margin-right: 100px;
+    }
+    .tool ul{
+    display: block;
+    }
+    .container div h1{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 800px){
+    .container{
+        margin: 0px 60px;
+        padding: 0px 20px;
+    }
+    .hero-right img{
+        width: 400px;
+    }
+    .tool ul{
+        display: block;
+    }
+    .container div h1{
+        font-size: 20px;
+    }
+    .line{
+        margin-top: -10px;
+    }
+
+}
+@media(max-width: 500px){
+    .container{
+      margin: 0px 20px;
+    }
+    .extrali{
+    display: none;
+   }
+   .hero-left{
+    max-width: 240px;
+   }
+   .hero-right img{
+    max-width: 240px;
+   }
+   .skill-list ul{
+    display: block;
+   }
+  
+}
