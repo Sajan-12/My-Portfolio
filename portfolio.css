@@ -41,9 +41,13 @@ nav{
     color: black;
     margin: 0px 10px;
 }
-
+.contact-resume{
+    display: flex;
+}
 .hero{
     display: flex;
+    align-items: center;
+    
 }
 .hero-left{
     flex: 1;
@@ -56,15 +60,7 @@ nav{
     display: flex;
  
 }
-.education-list li{
-display: flex;
-justify-content: space-between;
 
-}
-.education-list div{
-    display: flex;
-    justify-content: space-between;
-}
 .project-heading{
     display: flex;
     justify-content: space-between;
@@ -85,6 +81,10 @@ justify-content: space-between;
 }
 .line{
   margin-top: -15px;
+}
+#contact-details{
+  display: flex;
+  justify-content: space-between;
 }
 #role{
     text-decoration: underline;
@@ -125,9 +125,6 @@ justify-content: space-between;
     .container{
       margin: 0px 20px;
     }
-    .extrali{
-    display: none;
-   }
    .hero-left{
     max-width: 240px;
    }
@@ -137,5 +134,8 @@ justify-content: space-between;
    .skill-list ul{
     display: block;
    }
-  
+   .contact-resume{
+    display: flex;
+    flex-direction: column;
+    }
 }

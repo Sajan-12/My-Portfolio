@@ -1,3 +1,4 @@
+//https://cdn.hashnode.com/res/hashnode/image/upload/v1631446162089/6D9tgVJsq.png
 const roles = [
     "Software Developer.",
     "Web Developer.",
